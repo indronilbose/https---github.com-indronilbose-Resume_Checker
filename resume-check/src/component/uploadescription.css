@@ -1,0 +1,71 @@
+.container{
+    margin-top:50px
+}
+.card{
+    padding:20px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+}
+.card-header{
+    background-color:#007bff;
+    color:white;
+    border-radius:10px 10px 0 0;
+    padding:10px 20px;
+}
+.card-body{
+    padding:20px
+}
+.form-group{
+    margin-bottom:1.5rem;
+}
+.file-input {
+    display: none;
+  }
+  
+/* Hide the default file input */
+.file-input-hidden {
+    display: none;
+  }
+  
+  /* Custom file display area (styled to look like an input) */
+  .custom-file-display {
+    display: flex;
+    align-items: center;
+    min-height: 38px;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    flex-wrap: wrap;
+  }
+  
+  /* File name chip inside the custom input */
+  .file-chip {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 8px;
+    padding: 4px 8px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+  }
+  
+  /* Remove button (cross icon) */
+  .remove-btn {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    font-size: 16px;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    color: #d9534f;
+  }
+  
+  /* Hover effect for the custom input */
+  .custom-file-display:hover {
+    border-color: #80bdff;
+  }
+  
